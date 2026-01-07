@@ -76,15 +76,15 @@ DRY_RUN = False
 POSITION_MODE = 'single'
 
 # --- DYNAMIC RISK MANAGEMENT ---
-BASE_BET_SIZE = 0.50 # Default: Use 50% of balance
-MAX_BET_SIZE = 0.98  # Max: Use 98% if AI is super confident
+BASE_BET_SIZE = 0.40 # Default: Use 40% of balance
+MAX_BET_SIZE = 0.80  # Max: Use 80% if AI is super confident
 MIN_TRADE_USD = 10.0
 
 # Strategy Settings
 USE_TREND_FILTER = True
 ADX_THRESHOLD = 25
-TAKE_PROFIT_ATR_MULT = 4.0
-STOP_LOSS_ATR_MULT = 2.0
+TAKE_PROFIT_ATR_MULT = 3.0
+STOP_LOSS_ATR_MULT = 1.5
 USE_TRAILING_STOP = True
 TRAILING_STOP_ATR_MULT = 2.5
 
@@ -339,7 +339,7 @@ def generate_signal(df):
     if row['adx'] > ADX_THRESHOLD and row['m_di'] > row['p_di']: return 'crash_skip'
 
     # 3. Triggers
-    rsi_buy = prev['rsi'] < 40 and row['rsi'] > prev['rsi'] + 2
+    rsi_buy = prev['rsi'] < 50 and row['rsi'] > prev['rsi'] + 2
     macd_buy = row['macd_hist'] > prev['macd_hist'] and row['macd_hist'] > -0.5
     bb_buy = prev['low'] <= prev['bb_lower'] and row['close'] > row['bb_lower']
 
