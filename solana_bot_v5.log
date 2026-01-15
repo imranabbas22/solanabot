@@ -1,0 +1,28 @@
+2026-01-15 05:58:34,427 ERROR: Loop Error: binance GET https://api.binance.com/sapi/v1/capital/config/getall?timestamp=1768456713942&recvWindow=10000&signature=ddf042d8dda0aaf8831a5f5025fe785d28151d1097da2f22bcc840dd98abfbee 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+2026-01-15 05:59:34,799 ERROR: Loop Error: binance GET https://api.binance.com/sapi/v1/capital/config/getall?timestamp=1768456774783&recvWindow=10000&signature=9b141d1392fc47872b2f575e723e33221aec2da329a2d98c7caa9e3f569fd558 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+2026-01-15 06:00:35,243 ERROR: Loop Error: binance GET https://api.binance.com/sapi/v1/capital/config/getall?timestamp=1768456835227&recvWindow=10000&signature=67f3fe9d17b1e07de8a9a3830800e95b750c6ecac590297fa08d181db44c7d38 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+2026-01-15 06:01:35,641 ERROR: Loop Error: binance GET https://api.binance.com/sapi/v1/capital/config/getall?timestamp=1768456895626&recvWindow=10000&signature=f4a57a4f04f82b7f49d9967c21fa216b65c8aa230618422f589cac070e4b2a0a 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+2026-01-15 06:02:36,045 ERROR: Loop Error: binance GET https://api.binance.com/sapi/v1/capital/config/getall?timestamp=1768456956030&recvWindow=10000&signature=db33df0f37a79b1a24e493df56402765869edfb2ebb8a0a8e2c95845d7769e81 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+2026-01-15 06:03:36,459 ERROR: Loop Error: binance GET https://api.binance.com/sapi/v1/capital/config/getall?timestamp=1768457016443&recvWindow=10000&signature=126da0a329915a2fadf92e8f2edcb2dd7d37f3b0187eb3e633baabaabfffa7c6 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
+2026-01-15 06:04:36,867 ERROR: Loop Error: binance GET https://api.binance.com/sapi/v1/capital/config/getall?timestamp=1768457076852&recvWindow=10000&signature=f5fd89566a30c555c8a89d4a91e2cfc64b87965d5b58fdcf718647eb319a6c10 451  {
+  "code": 0,
+  "msg": "Service unavailable from a restricted location according to 'b. Eligibility' in https://www.binance.com/en/terms. Please contact customer service if you believe you received this message in error."
+}
